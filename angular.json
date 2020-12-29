@@ -52,6 +52,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bulma/css/bulma.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -102,9 +103,16 @@
           "options": {
             "browserTarget": "my-angular-site:build"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "my-angular-site"
+  "defaultProject": "my-angular-site",
+  "cli": {
+    "analytics": false
+  }
 }

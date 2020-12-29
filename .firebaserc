@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "my-angular-site-335c0": {
+      "hosting": {
+        "my-angular-site": [
+          "my-angular-site-335c0"
+        ]
+      }
+    }
+  }
+}
